@@ -4,12 +4,12 @@ public class Main {
     public static void main(String args[])
     {
         B obj = new B();
-        String str = obj.meth();
-        System.out.println(str);
+        obj.meth();
+
 
         B obj1 = new  B() ;
-        String str1 = obj1.meth();
-        System.out.println(str1);
+        obj1.meth();
+
     }
     public static class A{
 
