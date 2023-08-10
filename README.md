@@ -6,19 +6,19 @@ STEPS:
  * Method Overriding
  *
  * Task 1:
- * create a class A, with a method named meth having returning a string
- * "Invoking method from class A"
+ * create a class com.driver.Main.A, with a method named meth having returning a string
+ * "Invoking method from class com.driver.Main.A"
  *
  * Task 2:
- * create a class B which extends class A
+ * create a class com.driver.Main.B which extends class com.driver.Main.A
  *
  * Task 3:
- * create object of class B and call method `meth` of class A with it
+ * create object of class com.driver.Main.B and call method `meth` of class com.driver.Main.A with it
  *
  * Task 4:
- * Now override methode `meth` of class A in class B, which returns the following string
- * "Method is overridden in Extendend class B"
+ * Now override methode `meth` of class com.driver.Main.A in class com.driver.Main.B, which returns the following string
+ * "Method is overridden in Extendend class com.driver.Main.B"
  *
  * Task 5:
- * call this overridden method from obj of class B
+ * call this overridden method from obj of class com.driver.Main.B
  */
