@@ -21,7 +21,7 @@ public class Main {
     public  static class B extends A{
         public static String meth()
         {
-            return "Method is overridden in Extendend class com.driver.Main.B";
+            return "Method is overridden in Extended class com.driver.Main.B";
 
         }
     }
